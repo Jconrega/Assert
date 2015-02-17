@@ -1,6 +1,7 @@
 #include <assert.h>
 #include <string.h>
 #include <stdio.h>
+#include <Windows.h>
 
 void SetString(char *p)
 {
@@ -20,9 +21,12 @@ int main(int argc, char** argv){
 
 	SetString(peptio);
 
-	PrintFloat(cadena, 3.1416f);
+	PrintFloat(cadena, 314.16f);
 
 	printf("%s", cadena);
 
-	getchar(); 
+	//OutputDebugString 
+	//Log, buscar per internet que es
+	
+		getchar(); 
 }
